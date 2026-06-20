@@ -1,0 +1,37 @@
+# Office / WPS 临时锁文件
+~*.docx
+~*.doc
+~*.xlsx
+~*.xls
+~*.pptx
+~*.ppt
+
+# macOS / Windows 元数据
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 通用临时
+*.tmp
+*.bak
+
+# 让 app/ 自己的 .gitignore 接管代码相关规则
+app/node_modules/
+app/dist/
+app/build/
+
+# 日志文件
+dev.log
+dev.err.log
+
+# 嵌套子仓库（单独管理）
+Jiachuang-platform/
+
+# 根目录文档（不提交到代码仓库）
+*.docx
+*.pdf
+*.doc
+*.xlsx
+*.xls
+*.pptx
+*.ppt
